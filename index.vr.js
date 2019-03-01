@@ -11,7 +11,7 @@ export default class HelloVirtualWorld extends React.Component {
   render() {
     return (
       <View>
-        <Pano source={asset('chess-world.jpg')}/>
+        <Pano source={asset('harbour.jpg')}/>
         <Text
           style={{
             backgroundColor: '#777879',
@@ -22,9 +22,9 @@ export default class HelloVirtualWorld extends React.Component {
             paddingRight: 0.2,
             textAlign: 'center',
             textAlignVertical: 'center',
-            transform: [{translate: [0, 0, -3]}],
+            transform: [{translate: [0, 0, -6]}],
           }}>
-          hello
+          hello Sophie
         </Text>
       </View>
     );
