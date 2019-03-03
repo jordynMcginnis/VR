@@ -9,7 +9,7 @@ import {
 } from 'react-vr';
 import Church from './components/church.js';
 import Bar from './components/bar.js';
-
+import Boats from './components/boats.js';
 export default class HelloVirtualWorld extends React.Component {
     constructor(){
       super();
@@ -34,6 +34,7 @@ export default class HelloVirtualWorld extends React.Component {
            <Pano source={asset('harbour.jpg')}/>
            <Church/>
            <Bar/>
+           <Boats/>
         </View>
       : <View>
           <VrButton onClick={() => {this.setState(() => ({render : 'map', option : 'historical'}))}}>
